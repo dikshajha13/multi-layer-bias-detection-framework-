@@ -1,4 +1,15 @@
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+
+![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-red)
+
+![Research](https://img.shields.io/badge/Status-Research%20Prototype-green)
+
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 # Multi-Layer Bias Detection Framework (MLBDF)
+
+> 🚧 **Research Prototype:** This repository is under active development. The framework, implementation, and experiments will continue to evolve as the research progresses.
+
 This repository contains the official implementation of Multi-Layer Bias Detection Framework (MLBDF), an undergraduate research initiative focused on fairness in machine learning.
 
 MLBDF proposes a novel approach to analyzing how algorithmic bias originates, manifests, and propagates through different stages of a deep learning pipeline. It introduces two core methodologies: Bias Residual Propagation (BRP) and Dual-Dataset Fairness Transfer (DDFT).
@@ -36,7 +47,7 @@ The framework is built using the standard Python scientific computing and deep l
 - Visualization: Matplotlib, Seaborn
 
 
-# Supported Datasets
+# Datasets used
 To run the full pipeline, download and structure the following datasets in your local environment:
 
 CelebA Dataset (Celebrity Attributes)
@@ -48,6 +59,7 @@ UTKFace Dataset (Large-scale face dataset with age, gender, and ethnicity annota
 
  ## overall framework 
  The overall framework illustrates the complete pipeline of the proposed Multi-Layer Bias Detection Framework (MLBDF), from dataset preprocessing and bias analysis to model training, Bias Residual Propagation (BRP), fairness evaluation, and Dual-Dataset Fairness Transfer (DDFT) for bias mitigation. Diagram below helps to sum up the flow of the model:
+ 
  <img width="260" height="373" alt="image" src="https://github.com/user-attachments/assets/77a369ae-de84-41b5-bb41-3a2bd7905d7b" />
 
  
@@ -68,7 +80,12 @@ The process begins with the user uploading a dataset and configuring parameters.
 Research Prototype (Work in Progress): This repository currently reflects the first draft implementation of the framework. Active development is underway to refine core algorithms and expand experimental setups.
 
 # 📄 Research Paper
-The initial comprehensive write-up detailing the mathematical formulations of BRP and DDFT can be found in the research-paper/ directory:
+The initial comprehensive write-up detailing the mathematical formulations of BRP and DDFT can be found in the 'research paper' directory
+
+
+Also the initial first draft of the code is mentioned in the directory : 'MLBDF CODE.py'
+
+
  
 
 
